@@ -16,6 +16,6 @@ jobs:
       - name: Show date
         run: echo date
       - name: Show env variables
-        run: env | grep sort
-        
+        run: env
+
         
