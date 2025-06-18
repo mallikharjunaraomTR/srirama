@@ -14,4 +14,8 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Show date
-        run: date
+        run: echo date
+      - name: Show env variables
+        run: env | grep sort
+        
+        
